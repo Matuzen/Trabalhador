@@ -14,7 +14,7 @@ namespace Trabalhador.Entities
         public Worker()
         {
         }
-        public Worker(string name, WorkerLevel level, double baseSalary, Department department) // Associação para muitos nao será incluída no construtor
+        public Worker(string name, WorkerLevel level, double baseSalary, Department department) // Associação para muitos (Contracts) nao será incluída no construtor
         {
             Name = name;
             Level = level;
